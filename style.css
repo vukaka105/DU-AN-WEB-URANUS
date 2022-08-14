@@ -1,0 +1,226 @@
+.body {
+    max-width: 1440px;
+    margin: 0;
+}
+.header {
+    display: flex;
+    flex-direction: row;
+}
+.header__logo {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin-left: 137px;
+    margin-top: 22px;
+}
+.header__logo--slogan {
+    display:flex;
+    flex-direction: column;
+    margin-left: 12px;
+    margin-right: 248px;
+}
+.header--name {
+    font-family: 'Bahnschrift';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 19px;
+    color: #000000;
+}
+.header--solgan {
+    display: flex;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    color: #5E688B;
+    width: 155px;
+    height: 24px;
+    margin-right: 248px;
+}
+.header__menu {
+    display: flex;
+    flex-direction: row;
+    margin-top:32px;
+    justify-content: space-between;
+}
+.header__menu--ourwork {
+    display:flex;
+    width: 74px;
+    height: 21px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    text-decoration-line: underline;
+    color: #00A3FF;
+    margin-right: 46px;
+    
+}
+.header__menu--pricing {
+    width: 48px;
+    height: 21px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #000000;
+    margin-right: 46px;
+    text-decoration-line: none;
+}
+.header__menu--business {
+    width: 61px;
+    height: 21px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #000000;
+    margin-right: 46px;
+    text-decoration-line: none;
+}
+.header__menu--contact {
+    width: 57px;
+    height: 21px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #000000;
+    margin-right: 46px;
+    text-decoration-line: none;
+}
+.header__menu--jobs {
+    width: 37px;
+    height: 21px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #000000;
+    margin-right: 50px;
+    text-decoration-line: none;
+}
+.header__btn {
+    padding: 16px 54px;
+    margin-top:16px;
+    border-radius: 7px;
+    border:#00A3FF;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+    background-color: #00A3FF;
+}
+.body1 {
+    display:flex;
+    flex-direction: row;
+    margin-top: 45px;
+    position: relative;
+}
+.body1__left {
+    display:flex;
+    flex-direction: column;
+    margin-left:146px;
+}
+.body1__left1 {
+    display:flex;
+    flex-direction: row;
+    margin-top:126px;
+}
+.body1__left1--work {
+    display:flex;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 97.5%;
+    letter-spacing: -0.02em;
+    color: #000000;
+}
+.body1__left1--line {
+    justify-content: center;
+    margin-left:10px;
+}
+.body1__left2 {
+    width: 272px;
+    height: 96px;
+    left: 146px;
+    top: 300px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 49px;
+    line-height: 97.5%;
+    letter-spacing: -0.02em;
+    color: #000000;
+    margin-top:34px;
+}
+.body1__left3 {
+    width: 351px;
+    height: 48px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    color: #5E688B;
+    margin-top:17px;
+}
+.body1__left4 {
+    display:flex;
+    margin-top:39px;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 26px;
+    background: #FFFFFF;
+    border: 1.254px solid #00A3FF;
+    border-radius: 7px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 13px;
+    color: #00A3FF;
+    width: 130px;
+    height: 53px;
+}
+.body1__left5 {
+    display:flex;
+    margin-top: 119px;
+    width: 40px;
+    justify-content: space-between;
+}
+.body1__cen {
+    display:flex;
+    width: 692px;
+    height: 550px;
+    position: absolute;
+    left:310px;
+    z-index: -1;
+}
+.body1__right {
+    display:flex;
+    flex-direction: column;
+    position: absolute;
+    left:1022px;
+    right:146px;
+}
+.body1__right--img1 {
+    display:flex;
+    width: 272px;
+    height: 265px;
+    margin-bottom: 20px;
+}
+.body1__right--img2 {
+    display:flex;
+    width: 272px;
+    height: 265px;
+}
