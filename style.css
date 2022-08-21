@@ -1,10 +1,18 @@
 .body {
     max-width: 1440px;
-    margin: 0;
+    margin: 0px;
+    padding: 0px;
+    position:relative;
 }
 .header {
     display: flex;
     flex-direction: row;
+}
+@media only screen and (max-width: 600px) {
+    .header {
+        width: 428px;
+        height: 75px;
+    }
 }
 .header__logo {
     display: flex;
@@ -27,24 +35,27 @@
     line-height: 19px;
     color: #000000;
 }
-.header--solgan {
-    display: flex;
+.header--slogan {
+    width: 155px;
+    height: 24px;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
-    line-height: 24px;
     letter-spacing: 0.01em;
     color: #5E688B;
-    width: 155px;
-    height: 24px;
-    margin-right: 248px;
+    margin-block: 0px;
+    margin-top:4px;
 }
 .header__menu {
     display: flex;
     flex-direction: row;
     margin-top:32px;
     justify-content: space-between;
+}
+/* display on phone */
+@media only screen and (max-width: 600px) {
+    .header__menu {display: none}
 }
 .header__menu--ourwork {
     display:flex;
@@ -119,6 +130,20 @@
     line-height: 21px;
     color: #FFFFFF;
     background-color: #00A3FF;
+}
+/* display on phone */
+@media only screen and (max-width: 600px) {
+    .header__btn {
+        width: 75px;
+        height:16px;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        text-align: center;
+        color: #2C2C2C;
+    }
 }
 .body1 {
     display:flex;
